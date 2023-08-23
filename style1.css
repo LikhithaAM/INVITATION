@@ -1,0 +1,284 @@
+ @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Great+Vibes&family=Lobster&family=Noto+Serif:wght@500&family=Pacifico&family=Satisfy&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Great+Vibes&family=Italianno&family=Lobster&family=Noto+Serif:wght@500&family=Pacifico&family=Satisfy&display=swap');
+     
+     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&family=Great+Vibes&family=Italianno&family=Lobster&family=Noto+Serif:wght@500&family=Pacifico&family=Satisfy&family=Ubuntu:wght@300&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Caprasimo&family=Great+Vibes&family=Italianno&family=Lobster&family=Noto+Serif:wght@500&family=Pacifico&family=Satisfy&family=Ubuntu:wght@300&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Caprasimo&family=Great+Vibes&family=Italianno&family=Lobster&family=Noto+Serif:wght@500&family=Pacifico&family=Pinyon+Script&family=Satisfy&family=Ubuntu:wght@300&display=swap');
+
+      *{
+            margin: 0px;
+          
+           
+        }
+       
+      
+        nav{
+            /* height: 100px; */
+            width: 100%;
+            background: rgb(53, 49, 49,0.4);
+            backdrop-filter: blur(8px);
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+        }
+        nav .nav-items{
+
+            position: absolute;
+            right: 20px;
+
+        }
+        .nav-items a{
+            text-decoration: none;
+            font-size: 20px;
+            padding: 15px 5px;
+            color: rgb(93, 88, 88);
+        }
+        .nav-items:hover a{
+            filter: blur(2px);
+        }
+        .nav-items a:hover{
+            color: rgb(7, 7, 7);
+            filter: blur(0px);
+
+        }
+        nav .logo img{
+          height: 100px;
+          width: 100px;
+          padding: 20px;
+          border-radius: 50%;
+        }
+        .container img{
+          height: 700px;
+          width: 100%;
+          margin: 100px 0px 0px 0px;
+          /* top: 100px; */
+          /* opacity: 0.6; */
+          filter: brightness(0.4);
+        }
+        .centered h1{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          color: white;
+          /* color: rgb(156, 150, 150); */
+          text-shadow: 2px 4px 2px black;
+          /* font-family: 'Satisfy', cursive; */
+          font-family: 'Italianno', cursive;
+          font-size: 80px;
+          /* text-size-adjust: 90px; */
+          font-weight: 600;
+          transform: translate(-50%,-50%);
+        }
+        .mnabt img{
+            height:900px;
+            width:100%;
+            filter: brightness(0.2);
+            position:relative;
+            /* background-color: rgb(219, 123, 243); */
+        }
+        
+        .abt h1{
+            top: 850px;
+            left: 45%;
+            color: rgb(250, 247, 247);
+            transform: translate(-8%,-0%);
+            position: absolute;
+            text-shadow: 2px 4px 2px rgb(20, 13, 13);
+            font-family: 'Satisfy', cursive;
+            font-weight: 600;
+        }
+        .abt img{
+            border-radius: 70%;
+            height:250px;
+            width:250px;
+            position: absolute;
+            border:2px solid antiquewhite;
+            margin-left:300px;
+            margin-top:-700px;
+            display: flex;
+            filter: brightness(0.7);
+        }
+        .inrabt img{
+          border-radius: 70%;
+            height:250px;
+            width:250px;
+            position: absolute;
+            border:2px solid antiquewhite;
+            margin-left:300px;
+            margin-top:-400px;
+            display: flex;
+            filter: brightness(0.7);
+        }
+        .abt a{
+            margin-left:700px;
+            display: flex;
+            margin-top:-600px;
+            position: absolute;
+            font-size:40px;
+            font-family: 'Italianno', cursive;
+            color: rgb(240, 238, 238);
+            
+        }
+        .inrabt a{
+          margin-left:700px;
+            display: flex;
+            margin-top:-310px;
+            position: absolute;
+            font-size:40px;
+            font-family: 'Italianno', cursive;
+            color: rgb(240, 238, 238);
+
+        }
+        .haldii img{
+          height: 700px;
+          width: 100%;
+          /* margin: 0px 0px 100px 0px; */
+          top: 10%;
+          filter: brightness(0.6s);
+        }
+        .inner_haldi h2{
+          position: relative;
+          top: 10%;
+          left: 45%;
+          color: aliceblue;
+          text-shadow: 2px 4px 2px black;
+          font-family: 'Satisfy', cursive;
+          font-weight: 600;
+          transform: translate(-10%,-1700%);
+        }
+        .card{
+            height: 300px;
+            width: 350px;
+            position: absolute;
+            left: 1000px;
+            top: 2000px;
+            background-color: rgb(248, 215, 3);
+            box-shadow: 0px 0px 10px 10px rgb(238, 240, 99)inset;
+            border-radius: 40px 0px 100px ;
+            justify-content: center;
+            /* flex-direction: column; */
+            display: flex;
+            align-items: center;
+            z-index: 1;
+        }
+        .card pre{
+          font-family: 'Pinyon Script', cursive;
+          font-size: 25px;
+
+        }
+        .sngth img {
+           height: 700px;
+          width: 100%;
+          filter: brightness(0.4);
+
+        }
+        .sangth h2{
+          position: relative;
+          top: 10%;
+          left: 45%;
+          color: aliceblue;
+          font-family: 'Satisfy', cursive;
+          text-shadow: 2px 4px 2px black;
+          font-weight: 600;
+          transform: translate(-7%,-1800%);
+
+        }
+        .crd{
+          height: 300px;
+            width: 350px;
+            position: absolute;
+            left: 1000px;
+            top: 2750px;
+            background-color: rgb(133, 101, 62);
+            /* background-image: url("SANGiiii,.jpg"); */
+            box-shadow: 0px 0px 10px 10px rgb(23, 23, 21)inset;
+            border-radius: 40px 0px 100px;
+            justify-content: center;
+            /* flex-direction: column; */
+            display: flex;
+            align-items: center;
+
+        }
+        .crd pre{
+          font-family: 'Pinyon Script', cursive;
+          font-size: 25px;
+
+        }
+        .muhur img{
+          height: 700px;
+          width: 100%;
+          /* margin: 0px 0px 100px 0px; */
+          top: 10%;
+          filter: brightness(0.6s);
+          /* opacity: 0.1; */
+        }
+        .innrmu h2{
+          position: relative;
+          top: 10%;
+          left: 55%;
+          color: aliceblue;
+          text-shadow: 2px 4px 2px black;
+          /* margin: 0px 0px 0px 0px; */
+          font-family: 'Satisfy', cursive;
+          font-weight: 600;
+          transform: translate(-10%,-1700%);
+          /* opacity: 0.6; */
+
+        }
+        .grt{
+            height: 300px;
+            width: 370px;
+            color: bisque;
+            position: absolute;
+            left: 1000px;
+            top: 3400px;
+            background-color: rgb(249, 32, 231);
+            box-shadow: 0px 0px 10px 10px rgb(67, 21, 193)inset;
+            border-radius: 40px 0px 100px ;
+            justify-content: center;
+            /* flex-direction: column; */
+            display: flex;
+            align-items: center;
+            z-index: 1;
+        }
+        .grt pre{
+          font-family: 'Pinyon Script', cursive;
+          color: aliceblue;
+          font-size: 25px;
+
+        }
+        footer{
+            height: 280px;
+            width: 100%;
+            background-color: black;
+        }
+
+        footer h1{
+            color: white;
+            text-align: center;
+            padding: 40px 0px 10px 0px;
+            font-family: 'Poppins', sans-serif;
+        }
+        footer p{
+            color:white;
+            text-align: center;
+            font-family: 'DM Sans', sans-serif;
+        }
+
+        footer .icons{
+            position: absolute;
+            left:470px;
+        }
+
+        footer .icons img{
+            height: 35px;
+            width: 35px;
+            margin: 20px 0px 0px 250px;
+            /* left: 100px ; */
+        }
+        /* .empty{
+          margin: 200px;
+
+        } */
